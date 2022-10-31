@@ -1,0 +1,11 @@
+{
+    "name": "Commands",
+    "version": "1.0.0",
+    "description": "use the mic to make the crome work for you",
+    "manifest_version": 3,
+    "author": "gmar1",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Latest Covid Report"
+    }
+}
