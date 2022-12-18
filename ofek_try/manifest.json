@@ -1,0 +1,25 @@
+{
+    "name": "Commands",
+    "version": "1.0.0",
+    "description": "use the mic to make the crome work for you",
+    "manifest_version": 3,
+    "author": "guy",
+    "action":{
+        "default_popup": "record.html",
+        "default_title": "Latest Covid Report"
+    },
+    "content_scripts":[
+        {
+            "matches":["<all_urls>"],
+            "js": ["/recorder.js","/script.js"]
+        }
+
+    ],
+    
+    "permissions": [
+        "tabs"
+      ],
+
+    "options_page": "options.html"
+}
+
